@@ -1,0 +1,220 @@
+.main-footer {
+    font-family: var(--secondary-fond-family);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin: 0 auto;
+    padding: 60px 0;
+    background-color: var(--backgraund-section);
+}
+
+.logo-white {
+    color: var(--btn-tittle);
+    text-decoration: none;
+}
+
+.footer-adress,
+.footer-mail,
+.footer-tel {
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.footer-adress {
+    color: var(--btn-tittle);
+}
+
+.footer-mail,
+.footer-tel {
+    color: var(--main-footer-contacts);
+}
+
+.adress-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.adress {
+    margin-top: 20px;
+}
+
+.footer-contact+.footer-contact {
+    margin-top: 9px;
+}
+
+/*соцсети*/
+.footer-social-container {
+    width: 206px;
+    align-items: baseline;
+    margin-right: 93px;
+}
+
+.footer-social-title {
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    width: 206px;
+
+    color: #ffffff;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-social-list {
+    display: flex;
+}
+
+.footer-social-list-item {
+    display: flex;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.footer-social-list-item-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-position: center;
+    position: relative;
+    fill: currentColor;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-list-item-link:hover,
+.footer-social-list-item-link:focus {
+    background-color: #2196f3;
+    color: #fff;
+}
+
+.footer-social-list-item:not(:last child) {
+    margin-right: 10px;
+}
+
+.footer-social-icon {
+    fill: #fff;
+}
+
+.main-footer-container {
+    width: 230px;
+    align-items: baseline;
+    margin-right: 70px;
+
+}
+
+.subscribe {
+    width: 570px;
+}
+
+.footer-subscribe {
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.footer-form-item {
+    display: flex;
+}
+
+.footer-form-input {
+    width: 358px;
+    height: 50px;
+    padding-left: 16px;
+    margin-right: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: transparent;
+    display: flex;
+    color: #FFFFFF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-form-input::placeholder {
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    align-items: center;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-form-input:focus {
+    border-color: var(--navigation-color);
+    outline: none;
+
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border: transparent;
+
+    color: #FFFFFF;
+    cursor: pointer;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+    background-color: var(--btn-background);
+}
+
+.form-btn-icon {
+    margin-left: 10px;
+}
+
+/*.submit-btn::after{
+  content: '';
+  margin-left: 9px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/symbol-defs.svg#icon-send);
+  background-repeat: no-repeat;
+  background-position: center;
+}*/
+.footer-form-wrapper {
+    align-items: baseline;
+}
