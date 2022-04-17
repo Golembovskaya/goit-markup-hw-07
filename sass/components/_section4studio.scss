@@ -70,19 +70,19 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.social-links-list-item:hover,
-.social-links-list-item:focus {
-    background-color: #2196f3;
-}
-
-.social-links-list-item:hover .social-icon,
-.social-links-list-item:focus .social-icon {
-    fill: #fff;
+    &:hover,
+    &:focus {
+        background-color: #2196f3;
+    }
 }
 
 .social-icon {
     color: #afb1b8;
     transition-property: fill;
+
+    .social-links-list-item:hover &,
+    .social-links-list-item:focus & {
+        fill: #fff;
+    }
 }
