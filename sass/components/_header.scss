@@ -43,12 +43,12 @@
     border-style: none;
 }
 
-.navheader .item {
+.navheader .navheader__item {
     display: block;
     margin-right: 50px;
 }
 
-.item a {
+.navheader__item a {
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -58,7 +58,7 @@
     margin-left: 92px;
 }
 
-.navheader .item:last-child {
+.navheader .navheader__item:last-child {
     margin-right: 0;
 }
 
@@ -68,8 +68,8 @@
     border-style: none;
 }
 
-.navigation,
-.contact {
+.navheader__navigation,
+.contacts__contact {
     font-family: var(--main-font-family);
     font-weight: 500;
     font-size: 14px;
@@ -78,7 +78,7 @@
     text-decoration: none;
 }
 
-.header-page {
+.navheader__header-page {
     display: block;
     padding-bottom: 32px;
     padding-top: 32px;
@@ -105,16 +105,16 @@
     color: var(--navigation-color);
 }
 
-.navigation {
+.navheader__navigation {
     color: var(--btn-main-color-text);
 }
 
-.contacts .item-contact {
+.contacts .contacts__item-contact {
     display: block;
     margin-right: 50px;
 }
 
-.item-contact a {
+.contacts__item-contact a {
     display: flex;
     align-items: center;
     padding-top: 32px;
@@ -125,21 +125,20 @@
     margin-left: auto;
 }
 
-.contacts .item-contact+.item-contact {
+.contacts .contacts__item-contact+.contacts__item-contact {
     margin-right: 0;
 }
 
-.item-contact .contact {
+.contacts__item-contact .contacts__contact {
     color: var(--secondary-text-color);
     fill: var(--secondary-text-color);
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
-.contact:hover,
-.contact:focus {
+.contacts__contact:hover,
+.contacts__contact:focus {
     color: var(--navigation-color);
     fill: #2196f3;
 }
@@ -156,18 +155,18 @@
     border-bottom: 1px solid #ececec;
 }
 
-.item-contact .contact {
+.contacts__item-contact .contacts__contact {
     display: flex;
     align-items: center;
 }
 
-.mail-icon {
+.contacts__mail-icon {
     width: 16px;
     height: 12px;
     margin-right: 10px;
 }
 
-.tel-icon {
+.contacts__tel-icon {
     width: 10px;
     height: 16px;
     margin-right: 10px;
